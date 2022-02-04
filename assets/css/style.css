@@ -11,7 +11,7 @@ body * {
 /* navbar */
 
 .navbar {
-  background-color: #2e9ca7;
+  background-color: none;
 }
 .icono {
   max-width: 25px;
@@ -52,7 +52,4 @@ hr {
 footer {
   background-color: #2e9ca7;
   align-self: auto;
-}
-i {
-  float: right;
 }
