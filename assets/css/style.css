@@ -31,7 +31,28 @@ hr {
 }
 
 /*Destacados*/
+#Destacados h2 {
+  color: rgb(184, 168, 168);
+}
 
 .card-img-top {
   height: 169px;
+}
+.card-body {
+  background-color: #2e9ca7;
+}
+
+/*Contacto*/
+
+#Contacto h2 {
+  color: rgb(184, 168, 168);
+}
+
+/*footer*/
+footer {
+  background-color: #2e9ca7;
+  align-self: auto;
+}
+i {
+  float: right;
 }
