@@ -1,0 +1,37 @@
+/*body*/
+body {
+  background-color: black;
+}
+body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: #2e9ca7;
+}
+.icono {
+  max-width: 25px;
+}
+/*Quienes-Somos*/
+
+#Quienes-somos .col {
+  text-align: justify;
+  color: rgb(184, 168, 168);
+}
+
+#Quienes-somos h2 {
+  color: rgb(184, 168, 168);
+}
+hr {
+  color: #2e9ca7;
+}
+
+/*Destacados*/
+
+.card-img-top {
+  height: 169px;
+}
