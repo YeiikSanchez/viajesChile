@@ -1,6 +1,7 @@
 /*body*/
 body {
   background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 body * {
   margin: 0;
@@ -26,14 +27,10 @@ body * {
 
 #Quienes-somos h2 {
   color: rgb(184, 168, 168);
+  font-family: "Cabin";
 }
 hr {
   color: #2e9ca7;
-}
-
-/*Destacados*/
-#Destacados h2 {
-  color: rgb(184, 168, 168);
 }
 .fas {
   padding-inline-start: 50%;
@@ -41,24 +38,37 @@ hr {
   background-color: #2e9ca7;
 }
 
-.card-img-top {
-  width: 100%;
-  height: 40vh;
-  object-fit: cover;
+/*Destacados*/
+#Destacados h2 {
+  color: rgb(184, 168, 168);
+  font-family: "Cabin";
 }
 
+.card-img-top {
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+}
 .card-body {
   background-color: #2e9ca7;
+  width: auto;
+  object-fit: cover;
+}
+.card-title {
+  font-family: "Cabin";
 }
 
 /*Contacto*/
 
 #Contacto h2 {
   color: rgb(184, 168, 168);
+  font-family: "Cabin";
 }
 
 /*footer*/
 footer {
   background-color: #2e9ca7;
   align-self: auto;
+  color: rgb(184, 168, 168);
+  font-family: "Cabin";
 }
