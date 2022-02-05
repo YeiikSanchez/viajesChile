@@ -49,22 +49,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#Hero-section">Inicio</a>
+              <a class="nav-link scroll" href="#Hero-section">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Quienes-somos">Quienes Somos</a>
+              <a class="nav-link scroll" href="#Quienes-somos">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Destacados">Destacados</a>
+              <a class="nav-link scroll" href="#Destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contacto">Contacto</a>
+              <a class="nav-link scroll" href="#Contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <header id="Hero-section">
+    <header id="Hero-section" class="container-fluid">
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -114,11 +114,13 @@
       </div>
     </header>
     <section id="Quienes-somos" class="pt-4">
-      <h2 class="mx-auto text-center">¿Quienes somos?</h2>
-      <hr class="opacity-100 my-3" />
-      <div class="container">
+      <div class="container d-none d-md-block">
+        <h2 class="mx-auto text-center">¿Quienes somos?</h2>
+        <hr class="opacity-100 my-3" />
+
         <div class="row">
           <div class="col">
+            <i class="fas fa-plane fa-2x"></i>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Aspernatur velit odit saepe, maiores est doloremque similique
@@ -140,8 +142,10 @@
               nemo illum beatae ex dolorum minus assumenda numquam repellendus
               quibusdam error doloribus incidunt repellat quia? Animi, minima.
             </p>
+            <i class="fas fa-mountain fa-2x"></i>
           </div>
           <div class="col">
+            <i class="fas fa-route fa-2x"></i>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae alias quae, ipsa laborum excepturi cum mollitia
@@ -156,13 +160,13 @@
       </div>
     </section>
 
-    <section id="Destacados" class="py-5">
+    <section id="Destacados" class="py-5 container-fluid">
       <div class="container">
         <h2 class="mx-auto text-center">Destacados</h2>
         <hr class="opacity-100 my-3" />
-        <div class="row">
-          <div class="col-3">
-            <div class="card" style="width: 16rem">
+        <div class="row row-cols-1 row-cols-md-4 g-4 ms-auto">
+          <div class="col pb-1">
+            <div class="card d-flex align-items-stretch">
               <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -173,8 +177,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 16rem">
+          <div class="col pb-1">
+            <div class="card d-flex align-items-stretch">
               <img src="assets/img/card2.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -185,8 +189,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 16rem">
+          <div class="col pb-1 d-flex align-items-stretch">
+            <div class="card d-flex align-items-stretch">
               <img src="assets/img/card3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -197,8 +201,8 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 16rem">
+          <div class="col pb-1">
+            <div class="card d-flex align-items-stretch">
               <img src="assets/img/card4.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -246,7 +250,7 @@
               target="_blank"
               data-bs-toggle="tooltip"
               data-bs-placement="top"
-              title="GitHub"
+              title="twitter"
               ><i class="fab fa-twitter-square fa-2x text-white"></i
             ></a>
             <a
@@ -254,7 +258,7 @@
               target="_blank"
               data-bs-toggle="tooltip"
               data-bs-placement="top"
-              title="GitHub"
+              title="linkedin"
               ><i class="fab fa-linkedin fa-2x text-white"></i
             ></a>
             <a
@@ -262,7 +266,7 @@
               target="_blank"
               data-bs-toggle="tooltip"
               data-bs-placement="top"
-              title="GitHub"
+              title="Facebook"
               ><i class="fab fa-facebook-square fa-2x text-white"></i
             ></a>
           </div>
