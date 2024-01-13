@@ -15,22 +15,21 @@ body {
 .navbar {
     background-color: none;
 }
-.icono {
+.icon {
     max-width: 25px;
 }
 
 .container-image {
     height: 100vh;
-} 
+}
 
 /* main */
 
-.container-image>img {
+.container-image > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-} 
-
+}
 
 /*Quienes-Somos*/
 
